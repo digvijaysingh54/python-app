@@ -1,8 +1,8 @@
 replicaCount: 1
 image:
-  repository: ricardoandre9707/python-app
+  repository: digvijay12/python-app
   pullPolicy: IfNotPresent
-  tag: ed7159
+  tag: v1
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
@@ -43,7 +43,7 @@ readinessProbe:
 autoscaling:
   enabled: false
   minReplicas: 1
-  maxReplicas: 100
+  maxReplicas: 2
   targetCPUUtilizationPercentage: 80
 volumes: []
 volumeMounts: []

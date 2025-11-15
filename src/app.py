@@ -22,6 +22,13 @@ def health():
 	# Do an actual check here
     return jsonify({'status': 'up'}), 200
 
+@app.route('/api/v1/dvj')
+
+def dig():
+    return jsonify({
+        "Message": "Hello Digvijay Singh"
+    })
+
 if __name__ == '__main__':
 
     app.run(host="0.0.0.0")
