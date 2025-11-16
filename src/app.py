@@ -24,9 +24,9 @@ def health():
 
 @app.route('/api/v1/dvj')
 
-def dig():
+def sulekha():
     return jsonify({
-        "Message": "Hello Digvijay Singh"
+        "Message": "Hello Sulekha Singh how are you doing, 🤷‍♂️"
     })
 
 if __name__ == '__main__':
