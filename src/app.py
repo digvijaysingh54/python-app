@@ -22,7 +22,7 @@ def health():
 	# Do an actual check here
     return jsonify({'status': 'up'}), 200
 
-@app.route('/api/v1/dvj')
+@app.route('/api/v1/sulekha')
 
 def sulekha():
     return jsonify({
