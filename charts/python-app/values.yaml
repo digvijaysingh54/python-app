@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: digvijay12/python-app
   pullPolicy: IfNotPresent
-  tag: v1
+  tag: 06298b
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
